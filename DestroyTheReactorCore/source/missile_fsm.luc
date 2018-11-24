@@ -1,0 +1,103 @@
+module missile_fsm (
+    input clk,  // clock
+    input rst,  // reset
+    input shoot,
+    output test[8],    
+    output out [7]
+  ) {
+
+  .clk(clk)
+  {
+    .rst(rst)
+    {
+      fsm main_controller = {IDLE, START, SHOOT};
+      fsm missile_controller = {RIGHT, LEFT};
+      register missile (#WIDTH(7)); // 7 bit register for missle
+      register score_counter (#WIDTH(8));
+      dff counter[25];
+    }
+  }
+  
+  alu16_unit alu16;
+  
+  always {
+    missile.en = 0;
+    missile.data = 7bx;
+    test = 7b0;
+    out = 7b0;
+    score_counter.en = 0;
+    score_counter.data = 8b0;
+    alu16.a = 16bx;
+    alu16.b = 16bx;
+    alu16.alufn = 16bx;
+
+    case (main_controller.q) {
+    
+      main_controller.IDLE: // state definition for main_controller - IDLE state
+        missile.en = 1;
+        missile.data = 7b0001000;
+        test = 8b00000001;        
+        if (shoot)
+          main_controller.d = main_controller.START;
+
+      main_controller.START: // state definition for main_controller - START state
+        test = 8b10000000;
+        out = missile.out;
+        if (shoot)
+          main_controller.d = main_controller.SHOOT;
+          
+        if (counter.q[24:0] == 0) {
+          case (missile_controller.q) {
+          
+            missile_controller.RIGHT: // state definition for missile_controller - RIGHT state
+              if (missile.out == 7b0000001) {
+                missile.en = 1;
+                alu16.alufn = 100000; // SHL
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out;
+                missile_controller.d = missile_controller.LEFT;
+              }
+              else {
+                missile.en = 1;
+                alu16.alufn = 100001; // SHR
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out;
+                missile_controller.d = missile_controller.RIGHT;
+              }
+          
+            missile_controller.LEFT: // state definition for missile_controller - LEFT state
+              if (missile.out == 7b1000000) {
+                missile.en = 1;
+                alu16.alufn = 100001; // SHR
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out;
+                missile_controller.d = missile_controller.RIGHT;
+              }
+              else {
+                missile.en = 1;
+                alu16.alufn = 100000; // SHL
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out; 
+                missile_controller.d = missile_controller.LEFT;
+              }
+              
+                 
+          } // end of missile_controller definitions
+        } // end if statement for dff counter
+        counter.d = counter.q + 1;
+        
+      main_controller.SHOOT: //state definition for main_controller - SHOOT state
+        test = 8b11111;
+        if (shoot) {
+          missile.en = 1;
+          missile.data = 7b0001000;
+          main_controller.d = main_controller.START;
+        }
+        
+    } // end of main_controller definitions
+  }
+}
