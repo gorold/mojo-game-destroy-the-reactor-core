@@ -10,6 +10,7 @@
     <src top="true">mojo_top.luc</src>
     <src>missile_fsm.luc</src>
     <ucf lib="true">io_shield.ucf</ucf>
+    <ucf>custom.ucf</ucf>
     <ucf lib="true">mojo.ucf</ucf>
     <component>decoder.luc</component>
     <component>arbiter.luc</component>
