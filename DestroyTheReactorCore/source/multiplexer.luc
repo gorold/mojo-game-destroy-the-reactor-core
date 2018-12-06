@@ -1,0 +1,19 @@
+module multiplexer ( 
+    input signal[2],
+    input one[25],
+    input two[25],
+    input three[25],
+    input four[25],
+    output counter[25]
+  ) {
+
+  always {
+    case (signal) {
+      0: counter = one;
+      1: counter = two;
+      2: counter = three;
+      3: counter = four;
+      default: counter = one;
+    }
+  }
+}

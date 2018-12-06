@@ -1,0 +1,462 @@
+Release 14.7 Map P.20131013 (nt)
+Xilinx Mapping Report File for Design 'mojo_top_0'
+
+Design Information
+------------------
+Command Line   : map -intstyle pa -w -pr b -mt on mojo_top_0.ngd 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Thu Dec 06 21:28:48 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   80
+Slice Logic Utilization:
+  Number of Slice Registers:                   165 out of  11,440    1%
+    Number used as Flip Flops:                 165
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                        309 out of   5,720    5%
+    Number used as logic:                      303 out of   5,720    5%
+      Number using O6 output only:             191
+      Number using O5 output only:              59
+      Number using O5 and O6:                   53
+      Number used as ROM:                        0
+    Number used as Memory:                       1 out of   1,440    1%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:             1
+        Number using O6 output only:             1
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+    Number used exclusively as route-thrus:      5
+      Number with same-slice register load:      1
+      Number with same-slice carry load:         4
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   136 out of   1,430    9%
+  Number of MUXCYs used:                        76 out of   2,860    2%
+  Number of LUT Flip Flop pairs used:          343
+    Number with an unused Flip Flop:           182 out of     343   53%
+    Number with an unused LUT:                  34 out of     343    9%
+    Number of fully used LUT-FF pairs:         127 out of     343   37%
+    Number of unique control sets:              24
+    Number of slice register sites lost
+      to control set restrictions:              74 out of  11,440    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        91 out of     102   89%
+    Number of LOCed IOBs:                       83 out of      91   91%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     200    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     200    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      16    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                4.23
+
+Peak Memory Usage:  301 MB
+Total REAL time to MAP completion:  6 secs 
+Total CPU time to MAP completion (all processors):   6 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[0]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[1]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[2]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[3]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[4]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[5]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[6]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[7]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[8]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[9]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[10]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[11]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[12]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[20]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[13]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[21]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[14]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[22]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[30]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[15]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[23]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[31]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[16]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[24]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[32]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[40]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[17]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[25]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[33]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[41]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[18]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[26]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[34]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[42]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[50]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[19]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[27]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[35]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[43]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[51]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[28]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[36]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[44]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[52]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[29]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[37]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[45]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[53]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[38]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[46]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[54]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[39]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[47]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[55]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[48]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output[49]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output_new[0]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output_new[1]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   real_output_new[2]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[0]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[1]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[2]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[3]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[4]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[5]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lsb[6]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[0]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[1]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[2]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[3]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[4]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[5]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_msb[6]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[0]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[1]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[2]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[3]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[4]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[5]_PULLDOWN is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLDOWN on an active net. PULLDOWN of comp
+   display_lives[6]_PULLDOWN is set but the tri state is not configured. 
+
+Section 3 - Informational
+-------------------------
+INFO:Map:284 - Map is running with the multi-threading option on. Map currently
+   supports the use of up to 2 processors. Based on the the user options and
+   machine load, Map will use 2 processors during this run.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Place:834 - Only a subset of IOs are locked. Out of 91 IOs, 83 are locked
+   and 8 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   8 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+GND 		missile_fsm/XST_GND
+VCC 		missile_fsm/XST_VCC
+GND 		reset_cond/XST_GND
+GND 		shoot_conditioner/XST_GND
+VCC 		shoot_conditioner/XST_VCC
+GND 		shoot_conditioner/sync/XST_GND
+VCC 		shoot_conditioner/sync/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
+| display_lives[0]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lives[1]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lives[2]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lives[3]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lives[4]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lives[5]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lives[6]                   | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[0]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[1]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[2]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[3]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[4]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[5]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_lsb[6]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[0]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[1]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[2]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[3]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[4]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[5]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| display_msb[6]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| led[0]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[1]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[2]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[3]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[4]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[5]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[6]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| led[7]                             | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          |          |
+| real_input                         | IOB              | INPUT     | LVTTL                |       |          |      |              | PULLDOWN |          |
+| real_output[0]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[1]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[2]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[3]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[4]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[5]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[6]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[7]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[8]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[9]                     | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[10]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[11]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[12]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[13]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[14]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[15]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[16]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[17]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[18]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[19]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[20]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[21]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[22]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[23]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[24]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[25]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[26]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[27]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[28]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[29]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[30]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[31]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[32]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[33]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[34]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[35]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[36]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[37]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[38]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[39]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[40]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[41]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[42]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[43]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[44]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[45]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[46]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[47]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[48]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[49]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[50]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[51]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[52]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[53]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[54]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output[55]                    | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output_new[0]                 | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output_new[1]                 | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| real_output_new[2]                 | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              | PULLDOWN |          |
+| rst_n                              | IOB              | INPUT     | LVTTL                |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

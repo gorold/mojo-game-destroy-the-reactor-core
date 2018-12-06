@@ -1,0 +1,19 @@
+module digit_lut (
+    input in[3],
+    output out[7]
+  ) {
+
+  always {
+    out = 0;
+    case (in) 
+    {
+     0: out = 7b0111111;      
+     1: out = 7b0000110;      
+     2: out = 7b1011011;      
+     3: out = 7b1001111;
+     4: out = 7b1100110;      
+     5: out =  7b1101101;      
+     default: out = 7b0111111;
+    }
+  }
+}

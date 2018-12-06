@@ -1,0 +1,68 @@
+module seven_seg_score (
+    input score[8],
+    output lsb[7],
+    output msb[7]
+  ) {
+
+  digit_lut_lsb digit_lut_lsb;
+ 
+  always {
+    digit_lut_lsb.in = 0;    
+    lsb = digit_lut_lsb.out;
+    msb = 7b0000000;
+    
+    if (score < 10) {
+      msb = 7b0111111; // 0
+      digit_lut_lsb.in = score;
+    }
+    
+    else if (score < 20) {
+    
+      msb = 7b0000110; // 1
+      digit_lut_lsb.in = score - 8b00001010; // score - 10
+    }
+    
+    else if (score < 30) {
+    
+      msb = 7b1011011; // 2
+      digit_lut_lsb.in = score - 8b00010100; // score  - 20
+    }
+    
+    else if (score < 40) {
+    
+      msb = 7b1001111; // 3
+      digit_lut_lsb.in = score - 8b00011110; // score - 30
+    }
+    
+    else if (score < 50) {
+    
+      msb = 7b1100110; // 4
+      digit_lut_lsb.in = score - 8b00101000; // score - 40
+    }
+    
+    else if (score < 60) {
+    
+      msb = 7b1101101; // 5
+      digit_lut_lsb.in = score - 8b00110010; // score - 50
+    }
+    
+    else if (score < 70) {
+    
+      msb = 7b1111101; // 6
+      digit_lut_lsb.in = score - 8b00111100; // score - 60
+    }
+    
+    else if (score < 80) {
+    
+      msb = 7b0000111; // 7
+      digit_lut_lsb.in = score - 8b01000110; // score - 70
+    }
+    
+    else if (score < 90) {
+    
+      msb = 7b1111111; // 8
+      digit_lut_lsb.in = score - 8b01010000; // score - 80
+    }
+    
+  }
+}

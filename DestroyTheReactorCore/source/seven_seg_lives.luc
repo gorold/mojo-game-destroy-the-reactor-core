@@ -1,0 +1,13 @@
+module seven_seg_lives
+  (
+    input lives[3],
+    output out [7]
+  ) {
+  
+  digit_lut digit_lut;
+
+  always {
+    digit_lut.in = lives;
+    out = digit_lut.out;
+  }
+}

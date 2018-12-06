@@ -1,0 +1,72 @@
+module mojo_top (
+    input clk,              // 50MHz clock
+    input rst_n,            // reset button (active low)
+    output led [8],         // 8 user controllable LEDs
+    //input cclk,             // configuration clock, AVR ready when high
+    //output spi_miso,        // AVR SPI MISO
+    //input spi_ss,           // AVR SPI Slave Select
+    //input spi_mosi,         // AVR SPI MOSI
+    //input spi_sck,          // AVR SPI Clock
+    //output spi_channel [4], // AVR general purpose pins (used by default to select ADC channel)
+    //input avr_tx,           // AVR TX (FPGA RX)
+    //output avr_rx,          // AVR RX (FPGA TX)
+    //input avr_rx_busy,       // AVR RX buffer full
+    output real_output[8][7],
+    output real_output_new[3],
+    input real_input,
+    //output display
+    output display_lives[7],
+    output display_msb[7],
+    output display_lsb[7]
+  ) {
+  
+  sig rst;                  // reset signal
+  
+  .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    reset_conditioner reset_cond;
+    button_conditioner shoot_conditioner;
+    edge_detector shoot_edge (#RISE(1), #FALL(0));
+    .rst(rst) {
+      missile_fsm missile_fsm; // initialize finite state machine
+    }
+  }
+  
+  seven_seg_lives seven_seg_lives; // initialize seven seg for lives
+  seven_seg_score seven_seg_score; // initialize seven seg for score
+  
+  always {
+    reset_cond.in = ~rst_n; // input raw inverted reset signal
+    rst = reset_cond.out;   // conditioned reset
+    
+    led = 8h00;             // turn LEDs off
+    //spi_miso = bz;          // not using SPI
+    //spi_channel = bzzzz;    // not using flags
+    //avr_rx = bz;            // not using serial port
+    
+    shoot_conditioner.in = real_input;
+    shoot_edge.in = shoot_conditioner.out;
+    
+    missile_fsm.shoot = shoot_edge.out;
+    
+    real_output = 8x{{7b0}};
+    real_output[7] = missile_fsm.first;
+    real_output[6] = missile_fsm.second;
+    real_output[5] = missile_fsm.third;
+    real_output[4] = missile_fsm.fourth;
+    real_output[3] = missile_fsm.fifth;
+    real_output[2] = missile_fsm.sixth;
+    real_output[1] = missile_fsm.seventh;
+    real_output[0] = missile_fsm.eighth;
+    real_output_new = missile_fsm.ninth[4:2];
+    
+    seven_seg_lives.lives = missile_fsm.lives_out;
+    display_lives = seven_seg_lives.out;
+    
+    seven_seg_score.score = missile_fsm.score_out;
+    display_lsb = seven_seg_score.lsb;
+    display_msb = seven_seg_score.msb;
+
+  }
+}

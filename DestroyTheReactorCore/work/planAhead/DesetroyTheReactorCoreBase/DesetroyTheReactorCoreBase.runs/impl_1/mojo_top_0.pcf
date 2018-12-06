@@ -1,0 +1,225 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Dec 06 21:28:54 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "clk" LOCATE = SITE "P56" LEVEL 1;
+COMP "real_output[0]" LOCATE = SITE "P22" LEVEL 1;
+COMP "real_output[1]" LOCATE = SITE "P17" LEVEL 1;
+COMP "real_output[2]" LOCATE = SITE "P15" LEVEL 1;
+COMP "real_output[3]" LOCATE = SITE "P12" LEVEL 1;
+COMP "real_output[4]" LOCATE = SITE "P10" LEVEL 1;
+COMP "real_output[5]" LOCATE = SITE "P8" LEVEL 1;
+COMP "real_output[6]" LOCATE = SITE "P6" LEVEL 1;
+COMP "real_output[7]" LOCATE = SITE "P2" LEVEL 1;
+COMP "real_output[8]" LOCATE = SITE "P144" LEVEL 1;
+COMP "real_output[9]" LOCATE = SITE "P142" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "P38" LEVEL 1;
+COMP "real_output[10]" LOCATE = SITE "P140" LEVEL 1;
+COMP "real_output[11]" LOCATE = SITE "P138" LEVEL 1;
+COMP "real_output[12]" LOCATE = SITE "P134" LEVEL 1;
+COMP "real_output[20]" LOCATE = SITE "P23" LEVEL 1;
+COMP "real_output[13]" LOCATE = SITE "P132" LEVEL 1;
+COMP "real_output[21]" LOCATE = SITE "P21" LEVEL 1;
+COMP "real_output[14]" LOCATE = SITE "P50" LEVEL 1;
+COMP "real_output[22]" LOCATE = SITE "P16" LEVEL 1;
+COMP "real_output[30]" LOCATE = SITE "P75" LEVEL 1;
+COMP "real_output[15]" LOCATE = SITE "P40" LEVEL 1;
+COMP "real_output[23]" LOCATE = SITE "P14" LEVEL 1;
+COMP "real_output[31]" LOCATE = SITE "P79" LEVEL 1;
+COMP "real_output[16]" LOCATE = SITE "P34" LEVEL 1;
+COMP "real_output[24]" LOCATE = SITE "P11" LEVEL 1;
+COMP "real_output[32]" LOCATE = SITE "P81" LEVEL 1;
+COMP "real_output[40]" LOCATE = SITE "P102" LEVEL 1;
+COMP "real_output[17]" LOCATE = SITE "P1" LEVEL 1;
+COMP "real_output[25]" LOCATE = SITE "P9" LEVEL 1;
+COMP "real_output[33]" LOCATE = SITE "P83" LEVEL 1;
+COMP "real_output[41]" LOCATE = SITE "P105" LEVEL 1;
+COMP "real_output[18]" LOCATE = SITE "P29" LEVEL 1;
+COMP "real_output[26]" LOCATE = SITE "P7" LEVEL 1;
+COMP "real_output[34]" LOCATE = SITE "P85" LEVEL 1;
+COMP "real_output[42]" LOCATE = SITE "P57" LEVEL 1;
+COMP "real_output[50]" LOCATE = SITE "P92" LEVEL 1;
+COMP "real_output[19]" LOCATE = SITE "P26" LEVEL 1;
+COMP "real_output[27]" LOCATE = SITE "P5" LEVEL 1;
+COMP "real_output[35]" LOCATE = SITE "P88" LEVEL 1;
+COMP "real_output[43]" LOCATE = SITE "P66" LEVEL 1;
+COMP "real_output[51]" LOCATE = SITE "P94" LEVEL 1;
+COMP "real_output[28]" LOCATE = SITE "P58" LEVEL 1;
+COMP "real_output[36]" LOCATE = SITE "P93" LEVEL 1;
+COMP "real_output[44]" LOCATE = SITE "P74" LEVEL 1;
+COMP "real_output[52]" LOCATE = SITE "P97" LEVEL 1;
+COMP "real_output[29]" LOCATE = SITE "P67" LEVEL 1;
+COMP "real_output[37]" LOCATE = SITE "P95" LEVEL 1;
+COMP "real_output[45]" LOCATE = SITE "P78" LEVEL 1;
+COMP "real_output[53]" LOCATE = SITE "P99" LEVEL 1;
+COMP "real_output[38]" LOCATE = SITE "P98" LEVEL 1;
+COMP "real_output[46]" LOCATE = SITE "P80" LEVEL 1;
+COMP "real_output[54]" LOCATE = SITE "P101" LEVEL 1;
+COMP "real_output[39]" LOCATE = SITE "P100" LEVEL 1;
+COMP "real_output[47]" LOCATE = SITE "P82" LEVEL 1;
+COMP "real_output[55]" LOCATE = SITE "P104" LEVEL 1;
+COMP "real_output[48]" LOCATE = SITE "P84" LEVEL 1;
+COMP "real_output[49]" LOCATE = SITE "P87" LEVEL 1;
+COMP "real_output_new[0]" LOCATE = SITE "P35" LEVEL 1;
+COMP "real_output_new[1]" LOCATE = SITE "P33" LEVEL 1;
+COMP "real_output_new[2]" LOCATE = SITE "P30" LEVEL 1;
+COMP "display_lsb[0]" LOCATE = SITE "P115" LEVEL 1;
+COMP "display_lsb[1]" LOCATE = SITE "P117" LEVEL 1;
+COMP "display_lsb[2]" LOCATE = SITE "P124" LEVEL 1;
+COMP "display_lsb[3]" LOCATE = SITE "P121" LEVEL 1;
+COMP "display_lsb[4]" LOCATE = SITE "P119" LEVEL 1;
+COMP "display_lsb[5]" LOCATE = SITE "P112" LEVEL 1;
+COMP "display_lsb[6]" LOCATE = SITE "P111" LEVEL 1;
+COMP "display_msb[0]" LOCATE = SITE "P118" LEVEL 1;
+COMP "display_msb[1]" LOCATE = SITE "P120" LEVEL 1;
+COMP "display_msb[2]" LOCATE = SITE "P41" LEVEL 1;
+COMP "display_msb[3]" LOCATE = SITE "P51" LEVEL 1;
+COMP "display_msb[4]" LOCATE = SITE "P123" LEVEL 1;
+COMP "display_msb[5]" LOCATE = SITE "P116" LEVEL 1;
+COMP "display_msb[6]" LOCATE = SITE "P114" LEVEL 1;
+COMP "display_lives[0]" LOCATE = SITE "P139" LEVEL 1;
+COMP "display_lives[1]" LOCATE = SITE "P137" LEVEL 1;
+COMP "display_lives[2]" LOCATE = SITE "P126" LEVEL 1;
+COMP "display_lives[3]" LOCATE = SITE "P131" LEVEL 1;
+COMP "display_lives[4]" LOCATE = SITE "P133" LEVEL 1;
+COMP "display_lives[5]" LOCATE = SITE "P141" LEVEL 1;
+COMP "display_lives[6]" LOCATE = SITE "P143" LEVEL 1;
+COMP "real_input" LOCATE = SITE "P127" LEVEL 1;
+TIMEGRP clk = BEL "missile_fsm/sixth_row/M_regs_q_0" BEL
+        "missile_fsm/sixth_row/M_regs_q_1" BEL
+        "missile_fsm/sixth_row/M_regs_q_2" BEL
+        "missile_fsm/sixth_row/M_regs_q_3" BEL
+        "missile_fsm/sixth_row/M_regs_q_4" BEL
+        "missile_fsm/sixth_row/M_regs_q_5" BEL
+        "missile_fsm/sixth_row/M_regs_q_6" BEL
+        "missile_fsm/score_counter/M_regs_q_7" BEL
+        "missile_fsm/score_counter/M_regs_q_6" BEL
+        "missile_fsm/score_counter/M_regs_q_5" BEL
+        "missile_fsm/score_counter/M_regs_q_4" BEL
+        "missile_fsm/score_counter/M_regs_q_3" BEL
+        "missile_fsm/score_counter/M_regs_q_2" BEL
+        "missile_fsm/score_counter/M_regs_q_1" BEL
+        "missile_fsm/score_counter/M_regs_q_0" BEL
+        "missile_fsm/fourth_row/M_regs_q_0" BEL
+        "missile_fsm/fourth_row/M_regs_q_1" BEL
+        "missile_fsm/fourth_row/M_regs_q_2" BEL
+        "missile_fsm/fourth_row/M_regs_q_3" BEL
+        "missile_fsm/fourth_row/M_regs_q_4" BEL
+        "missile_fsm/fourth_row/M_regs_q_5" BEL
+        "missile_fsm/fourth_row/M_regs_q_6" BEL
+        "missile_fsm/missile/M_regs_q_0" BEL "missile_fsm/missile/M_regs_q_1"
+        BEL "missile_fsm/missile/M_regs_q_2" BEL
+        "missile_fsm/missile/M_regs_q_3" BEL "missile_fsm/missile/M_regs_q_4"
+        BEL "missile_fsm/missile/M_regs_q_5" BEL
+        "missile_fsm/missile/M_regs_q_6" BEL
+        "missile_fsm/third_row/M_regs_q_0" BEL
+        "missile_fsm/third_row/M_regs_q_1" BEL
+        "missile_fsm/third_row/M_regs_q_2" BEL
+        "missile_fsm/third_row/M_regs_q_3" BEL
+        "missile_fsm/third_row/M_regs_q_4" BEL
+        "missile_fsm/third_row/M_regs_q_5" BEL
+        "missile_fsm/third_row/M_regs_q_6" BEL
+        "missile_fsm/M_counter_one_q_10" BEL "missile_fsm/M_counter_one_q_11"
+        BEL "missile_fsm/M_counter_one_q_12" BEL
+        "missile_fsm/M_counter_one_q_13" BEL "missile_fsm/M_counter_one_q_14"
+        BEL "missile_fsm/M_counter_one_q_15" BEL
+        "missile_fsm/M_counter_one_q_20" BEL "missile_fsm/M_counter_one_q_16"
+        BEL "missile_fsm/M_counter_one_q_21" BEL
+        "missile_fsm/M_counter_one_q_17" BEL "missile_fsm/M_counter_one_q_22"
+        BEL "missile_fsm/M_counter_one_q_18" BEL
+        "missile_fsm/M_counter_one_q_23" BEL "missile_fsm/M_counter_one_q_19"
+        BEL "missile_fsm/sema/M_regs_q_0" BEL "missile_fsm/level/M_regs_q_1"
+        BEL "missile_fsm/level/M_regs_q_0" BEL "missile_fsm/M_asteroid_q" BEL
+        "missile_fsm/seventh_row/M_regs_q_0" BEL
+        "missile_fsm/seventh_row/M_regs_q_1" BEL
+        "missile_fsm/seventh_row/M_regs_q_2" BEL
+        "missile_fsm/seventh_row/M_regs_q_3" BEL
+        "missile_fsm/seventh_row/M_regs_q_4" BEL
+        "missile_fsm/seventh_row/M_regs_q_5" BEL
+        "missile_fsm/seventh_row/M_regs_q_6" BEL
+        "missile_fsm/M_main_controller_q_FSM_FFd1" BEL
+        "missile_fsm/M_main_controller_q_FSM_FFd2" BEL
+        "missile_fsm/M_counter_one_q_0" BEL "missile_fsm/M_counter_one_q_1"
+        BEL "missile_fsm/M_counter_one_q_2" BEL
+        "missile_fsm/M_counter_one_q_3" BEL "missile_fsm/M_counter_one_q_4"
+        BEL "missile_fsm/M_counter_shoot_q_10" BEL
+        "missile_fsm/M_counter_one_q_5" BEL "missile_fsm/M_counter_shoot_q_11"
+        BEL "missile_fsm/M_counter_one_q_6" BEL
+        "missile_fsm/M_counter_shoot_q_12" BEL "missile_fsm/M_counter_one_q_7"
+        BEL "missile_fsm/M_counter_shoot_q_13" BEL
+        "missile_fsm/M_counter_one_q_8" BEL "missile_fsm/M_counter_shoot_q_14"
+        BEL "missile_fsm/M_counter_one_q_9" BEL
+        "missile_fsm/M_counter_shoot_q_15" BEL
+        "missile_fsm/M_counter_shoot_q_20" BEL
+        "missile_fsm/M_counter_shoot_q_16" BEL
+        "missile_fsm/M_counter_shoot_q_17" BEL
+        "missile_fsm/M_counter_shoot_q_18" BEL
+        "missile_fsm/M_counter_shoot_q_19" BEL
+        "missile_fsm/sema_one/M_regs_q_0" BEL "missile_fsm/goal/M_regs_q_2"
+        BEL "missile_fsm/goal/M_regs_q_3" BEL "missile_fsm/goal/M_regs_q_4"
+        BEL "missile_fsm/asteroid_position/M_regs_q_0" BEL
+        "missile_fsm/asteroid_position/M_regs_q_1" BEL
+        "missile_fsm/asteroid_position/M_regs_q_2" BEL
+        "missile_fsm/asteroid_position/M_regs_q_3" BEL
+        "missile_fsm/asteroid_position/M_regs_q_4" BEL
+        "missile_fsm/asteroid_position/M_regs_q_5" BEL
+        "missile_fsm/asteroid_position/M_regs_q_6" BEL
+        "missile_fsm/M_counter_shoot_q_0" BEL
+        "missile_fsm/M_counter_shoot_q_1" BEL
+        "missile_fsm/M_counter_shoot_q_2" BEL
+        "missile_fsm/M_counter_shoot_q_3" BEL
+        "missile_fsm/M_counter_shoot_q_4" BEL
+        "missile_fsm/M_counter_shoot_q_5" BEL
+        "missile_fsm/M_counter_shoot_q_6" BEL
+        "missile_fsm/M_counter_shoot_q_7" BEL
+        "missile_fsm/M_counter_shoot_q_8" BEL
+        "missile_fsm/M_counter_shoot_q_9" BEL
+        "missile_fsm/fifth_row/M_regs_q_0" BEL
+        "missile_fsm/fifth_row/M_regs_q_1" BEL
+        "missile_fsm/fifth_row/M_regs_q_2" BEL
+        "missile_fsm/fifth_row/M_regs_q_3" BEL
+        "missile_fsm/fifth_row/M_regs_q_4" BEL
+        "missile_fsm/fifth_row/M_regs_q_5" BEL
+        "missile_fsm/fifth_row/M_regs_q_6" BEL
+        "missile_fsm/second_row/M_regs_q_0" BEL
+        "missile_fsm/second_row/M_regs_q_1" BEL
+        "missile_fsm/second_row/M_regs_q_2" BEL
+        "missile_fsm/second_row/M_regs_q_3" BEL
+        "missile_fsm/second_row/M_regs_q_4" BEL
+        "missile_fsm/second_row/M_regs_q_5" BEL
+        "missile_fsm/second_row/M_regs_q_6" BEL
+        "missile_fsm/M_missile_shoots_q_FSM_FFd1" BEL
+        "missile_fsm/M_missile_shoots_q_FSM_FFd2" BEL
+        "missile_fsm/M_missile_shoots_q_FSM_FFd3" BEL
+        "missile_fsm/M_missile_shoots_q_FSM_FFd4" BEL
+        "missile_fsm/M_missile_controller_q" BEL
+        "missile_fsm/eighth_row/M_regs_q_0" BEL
+        "missile_fsm/eighth_row/M_regs_q_1" BEL
+        "missile_fsm/eighth_row/M_regs_q_2" BEL
+        "missile_fsm/eighth_row/M_regs_q_3" BEL
+        "missile_fsm/eighth_row/M_regs_q_4" BEL
+        "missile_fsm/eighth_row/M_regs_q_5" BEL
+        "missile_fsm/eighth_row/M_regs_q_6" BEL "missile_fsm/lives/M_regs_q_7"
+        BEL "missile_fsm/lives/M_regs_q_6" BEL "missile_fsm/lives/M_regs_q_5"
+        BEL "missile_fsm/lives/M_regs_q_4" BEL "missile_fsm/lives/M_regs_q_3"
+        BEL "missile_fsm/lives/M_regs_q_2" BEL "missile_fsm/lives/M_regs_q_1"
+        BEL "missile_fsm/lives/M_regs_q_0" BEL "clk_BUFGP/BUFG" BEL
+        "shoot_edge/M_last_q" BEL "reset_cond/M_stage_q_3" BEL
+        "reset_cond/M_stage_q_2" BEL "reset_cond/M_stage_q_1" BEL
+        "reset_cond/M_stage_q_0" BEL "shoot_conditioner/M_ctr_q_0" BEL
+        "shoot_conditioner/M_ctr_q_1" BEL "shoot_conditioner/M_ctr_q_2" BEL
+        "shoot_conditioner/M_ctr_q_3" BEL "shoot_conditioner/M_ctr_q_4" BEL
+        "shoot_conditioner/M_ctr_q_5" BEL "shoot_conditioner/M_ctr_q_6" BEL
+        "shoot_conditioner/M_ctr_q_7" BEL "shoot_conditioner/M_ctr_q_8" BEL
+        "shoot_conditioner/M_ctr_q_9" BEL "shoot_conditioner/M_ctr_q_10" BEL
+        "shoot_conditioner/M_ctr_q_11" BEL "shoot_conditioner/M_ctr_q_12" BEL
+        "shoot_conditioner/M_ctr_q_13" BEL "shoot_conditioner/M_ctr_q_14" BEL
+        "shoot_conditioner/M_ctr_q_15" BEL "shoot_conditioner/M_ctr_q_16" BEL
+        "shoot_conditioner/M_ctr_q_17" BEL "shoot_conditioner/M_ctr_q_18" BEL
+        "shoot_conditioner/M_ctr_q_19" BEL "shoot_conditioner/sync/M_pipe_q_1"
+        BEL "shoot_conditioner/sync/Mshreg_M_pipe_q_1";
+TS_clk = PERIOD TIMEGRP "clk" 50 MHz HIGH 50%;
+SCHEMATIC END;
+

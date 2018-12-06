@@ -1,0 +1,465 @@
+module missile_fsm (
+    input clk,  // clock
+    input rst,  // reset
+    input shoot,   
+    output first [7],
+    output second [7],
+    output third[7],
+    output fourth[7],
+    output fifth[7],
+    output sixth[7],
+    output seventh[7],
+    output eighth[7],
+    output ninth[7],
+    output score_out[8],
+    output lives_out[3]    
+  ) {
+
+  .clk(clk)
+  {
+    .rst(rst)
+    {
+//      dff slowclk;
+      register missile (#WIDTH(7)); // 7 bit register for missle
+      register goal (#WIDTH(7)); // 7 bit register for reactor core
+      
+      register second_row (#WIDTH(7)); // 7 bit register for each row 
+      register third_row (#WIDTH(7));
+      register fourth_row (#WIDTH(7));
+      register fifth_row (#WIDTH(7));
+      register sixth_row (#WIDTH(7));
+      register seventh_row (#WIDTH(7));
+      register eighth_row (#WIDTH(7));
+      
+      register sema (#WIDTH(1)); // register for counter control logic for missile_shoots fsm
+      register sema_one (#WIDTH(1)); // register for counter control logic for main_controller fsm at SHOOT state
+      
+      register score_counter (#WIDTH(8)); // register for score counter
+      
+      fsm main_controller = {IDLE, START, SHOOT, GAME_OVER};
+      fsm missile_controller = {RIGHT, LEFT};
+      fsm missile_shoots = {SECOND_ROW, THIRD_ROW, FOURTH_ROW, FIFTH_ROW, SIXTH_ROW, SEVENTH_ROW, EIGHTH_ROW, NINTH_ROW, STOP};
+      fsm asteroid = {RIGHT_AST, LEFT_AST};
+      register asteroid_position (#WIDTH(7)); // register for asteroid stage
+      dff counter_one[24]; // 4 dffs with different soeeds
+      dff counter_two[23];
+      dff counter_three[22];
+      dff counter_four[21];
+      dff counter_shoot[21]; // counter to control speed of missile when it is shot
+      register level (#WIDTH(9)); // register for speed level
+      register lives;      // register for lives
+    }
+  }
+  
+  multiplexer counter; // initialize mux for dffs
+  
+  const ADD = 6b000000; // ALUFN values
+  const SUB = 6b000001;
+  const SHL = 6b100000;
+  const SHR = 6b100001;
+  
+  alu16_unit alu16;
+  
+  always {
+//    slowclk.d = ~slowclk.q;
+//    sclk = slowclk.q;
+    missile.en = 0;
+    missile.data = 7bx;
+    
+    first = 7b0;
+    second = 7b0;
+    third = 7b0;
+    fourth = 7b0;
+    fifth = 7b0;
+    sixth = 7b0;
+    seventh = 7b0;
+    eighth = 7b0;
+    ninth = goal.out;
+    
+    score_counter.en = 0;
+    score_counter.data = 8b0;
+    alu16.a = 16bx;
+    alu16.b = 16bx;
+    alu16.alufn = 6bx;
+    goal.en=0;
+    goal.data = 7b0;
+    
+    score_out = score_counter.out;
+    lives_out = lives.out;
+    
+    counter.one = counter_one.q;
+    counter.two = counter_two.q;
+    counter.three = counter_three.q;
+    counter.four = counter_four.q;
+    counter.signal = level.out;
+    
+    level.en = 0;
+    level.data = 9bx;    
+    
+    second_row.en = 0;
+    third_row.en = 0;
+    fourth_row.en = 0;
+    fifth_row.en = 0;
+    sixth_row.en = 0;
+    seventh_row.en = 0;
+    eighth_row.en = 0;
+    
+    second_row.data = 7bx;
+    third_row.data = 7bx;
+    fourth_row.data = 7bx;
+    fifth_row.data = 7bx;
+    sixth_row.data = 7bx;
+    seventh_row.data = 7bx;
+    eighth_row.data = 7bx;
+    
+    sema.en = 0;
+    sema.data = 1bx;
+    sema_one.en = 0;
+    sema_one.data = 1bx;
+    
+    lives.en = 0;
+    lives.data = 2bx;
+    
+    asteroid_position.en = 0;
+    asteroid_position.data = 7bx;
+        
+    case (main_controller.q) {
+    
+      main_controller.IDLE: // state definition for main_controller - IDLE state
+        missile.en = 1;
+        missile.data = 7b0001000;    
+        level.en = 1;
+        level.data = 0;
+        lives.en = 1;
+        lives.data = 3b101;
+        goal.en = 1;
+        goal.data = 7b0011100;
+        score_counter.en = 1;
+        score_counter.data = 0;
+        sema.en = 1;
+        sema.data = 0;
+        sema_one.en = 1;
+        sema_one.data = 0;
+        asteroid_position.en = 1;
+        asteroid_position.data = 7b0000000;
+        if (shoot)         
+          main_controller.d = main_controller.START;
+
+      main_controller.START: // state definition for main_controller - START state
+        first = missile.out;
+        fourth = asteroid_position.out;
+        if (shoot) {
+          if (|(asteroid_position.out & missile.out) == 1b1) { // if missile hits asteroid, minus 1 life
+            alu16.alufn = SUB;
+            alu16.a = lives.out;
+            alu16.b = 1b1;
+            lives.en = 1;
+            lives.data = alu16.out;
+          }
+          else if (|(missile.out & (goal.out)) == 1b1) { // if missile hits reactor core, add 1 point
+            alu16.alufn = ADD;
+            alu16.a = score_counter.out;
+            alu16.b = 1b1;
+            score_counter.en = 1;
+            score_counter.data = alu16.out;            
+          } 
+          else {  // if miss reactor core, minus life    
+            alu16.alufn = SUB; 
+            alu16.a = lives.out;
+            alu16.b = 1b1;
+            lives.en = 1;
+            lives.data = alu16.out;
+                        
+          }        
+          sema.en = 1;
+          sema.data = sema.out + 1; // control logic for missile_shoots fsm
+          main_controller.d = main_controller.SHOOT;
+        }
+        
+        if (counter_one.q[23:0] == 0) { // loop for asteroid movement (asteroid only activates in certain levels)
+          case (asteroid.q) {
+            asteroid.RIGHT_AST:
+              if (asteroid_position.out == 7b0000011) { // shift left if asteroid is at right edge
+                asteroid_position.en = 1;
+                asteroid_position.data = asteroid_position.out << 1b1;
+                asteroid.d = asteroid.LEFT_AST;
+              } 
+              else { // else continue shifting right
+                asteroid_position.en = 1;
+                asteroid_position.data = asteroid_position.out >> 1b1;
+                asteroid.d = asteroid.RIGHT_AST;
+              }
+            
+            asteroid.LEFT_AST:
+              if (asteroid_position.out == 7b1100000) { // shift right if asteroid is at left edge
+                asteroid_position.en = 1;
+                asteroid_position.data = asteroid_position.out >> 1b1;
+                asteroid.d = asteroid.RIGHT_AST;
+              } 
+              else { // else continue shifting left
+                asteroid_position.en = 1;
+                asteroid_position.data = asteroid_position.out << 1b1;
+                asteroid.d = asteroid.LEFT_AST;
+              }
+          }
+          
+        }
+          
+        if (counter.counter[24:0] == 0) { // missile movement loop
+          case (missile_controller.q) {
+          
+            missile_controller.RIGHT: // state definition for missile_controller - RIGHT state
+              if (missile.out == 7b0000001) {
+                missile.en = 1;
+                alu16.alufn = SHL; // SHL
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out;
+                missile_controller.d = missile_controller.LEFT;
+              }
+              else {
+                missile.en = 1;
+                alu16.alufn = SHR; // SHR
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out;
+                missile_controller.d = missile_controller.RIGHT;
+              }
+          
+            missile_controller.LEFT: // state definition for missile_controller - LEFT state
+              if (missile.out == 7b1000000) {
+                missile.en = 1;
+                alu16.alufn = SHR; // SHR
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out;
+                missile_controller.d = missile_controller.RIGHT;
+              }
+              else {
+                missile.en = 1;
+                alu16.alufn = SHL; // SHL
+                alu16.a = missile.out;
+                alu16.b = 1b1;
+                missile.data = alu16.out; 
+                missile_controller.d = missile_controller.LEFT;
+              }
+              
+                 
+          } // end of missile_controller definitions
+        } // end if statement for dff counter
+        counter_one.d = counter_one.q + 1; 
+        counter_two.d = counter_two.q + 1;
+        counter_three.d = counter_three.q + 1;
+        counter_four.d = counter_four.q + 1;
+        
+      main_controller.SHOOT: //state definition for main_controller - SHOOT state              
+        second = second_row.out;
+        third = third_row.out;
+        fourth = fourth_row.out | asteroid_position.out;
+        if (|(asteroid_position.out & missile.out) == 1b0){ // if missile hits asteroid, missile stops moving
+          fifth = fifth_row.out;
+          sixth = sixth_row.out;
+          seventh = seventh_row.out;
+          eighth = eighth_row.out; 
+        }
+        
+        if (counter_shoot.q[20:0] == 0) { // loop for missile shooting
+          case (missile_shoots.q) {
+            missile_shoots.SECOND_ROW:
+              sema_one.en = 1;
+              sema_one.data = sema_one.out + 1;    
+              second_row.en = 1;
+              second_row.data = missile.out; 
+              
+              missile_shoots.d = missile_shoots.THIRD_ROW;
+
+            missile_shoots.THIRD_ROW:
+              third_row.en = 1;
+              third_row.data = missile.out; 
+
+              missile_shoots.d = missile_shoots.FOURTH_ROW;
+              
+              
+            missile_shoots.FOURTH_ROW:
+            
+              second_row.en = 1;
+              second_row.data = 7b0;
+              
+              fourth_row.en = 1;
+              fourth_row.data = missile.out;  
+              
+              missile_shoots.d = missile_shoots.FIFTH_ROW;
+              
+            missile_shoots.FIFTH_ROW:
+            
+              third_row.en = 1;
+              third_row.data = 7b0;
+              
+              fifth_row.en = 1;
+              fifth_row.data = missile.out;
+
+              missile_shoots.d = missile_shoots.SIXTH_ROW;
+              
+            missile_shoots.SIXTH_ROW:
+            
+              fourth_row.en = 1;
+              fourth_row.data = 7b0;
+              
+              sixth_row.en = 1;
+              sixth_row.data = missile.out; 
+              
+              missile_shoots.d = missile_shoots.SEVENTH_ROW;
+              
+            missile_shoots.SEVENTH_ROW:
+            
+              fifth_row.en = 1;
+              fifth_row.data = 7b0;
+              seventh_row.en = 1;
+              seventh_row.data = missile.out; 
+              
+              missile_shoots.d = missile_shoots.EIGHTH_ROW;
+              
+            missile_shoots.EIGHTH_ROW:
+              sixth_row.en = 1;
+              sixth_row.data = 7b0;
+              eighth_row.en = 1;
+              eighth_row.data = missile.out; 
+              
+              missile_shoots.d = missile_shoots.NINTH_ROW;
+              
+            missile_shoots.NINTH_ROW:
+              seventh_row.en = 1;
+              seventh_row.data = 7b0;
+              eighth_row.en = 1;
+              eighth_row.data = 7b0;
+             
+              missile_shoots.d = missile_shoots.STOP;
+              
+            missile_shoots.STOP:
+              if (sema.out == 1) { // sema == 1 only after shooting, will go straight to second_row and come back here
+                sema.en = 1;
+                sema.data = sema.out + 1;
+                missile_shoots.d = missile_shoots.SECOND_ROW;
+              }
+              if (sema_one.out == 1) {
+                if (score_counter.out == 5) { // difficulty level increases every 5 hits
+                  level.en = 1;
+                  level.data = 1;
+                }
+          
+                else if (score_counter.out == 10) {
+                  level.en = 1;
+                  level.data = 2;
+                }
+          
+                else if (score_counter.out == 15) {
+                  goal.en = 1;
+                  goal.data = 7b0010100;
+                  level.en = 1;
+                  level.data = 1;
+                }
+          
+                else if (score_counter.out == 20) {
+                  level.en = 1;
+                  level.data = 2;
+                }
+          
+                else if (score_counter.out == 25) {
+                  goal.en = 1;
+                  goal.data = 7b0011100;
+                  level.en = 1;
+                  level.data = 3;
+                }
+          
+                else if (score_counter.out == 30) {
+                  level.en = 1;
+                  level.data = 1;
+                  asteroid_position.en = 1;
+                  asteroid_position.data = 7b1100000;
+                }
+                else if (score_counter.out == 35) {
+                  level.en = 1;
+                  level.data = 2;                  
+                }
+          
+                else if (score_counter.out == 40) {
+                  level.en = 1;
+                  level.data = 3;
+                }
+          
+                else if (score_counter.out == 45) {
+                  level.en = 1;
+                  level.data = 1;
+                  goal.en = 1;
+                  goal.data = 7b0001000;
+                  asteroid_position.en = 1;
+                  asteroid_position.data = 7b0000000;
+                }
+                else if (score_counter.out == 50) {
+                  level.en = 1;
+                  level.data = 2;
+                }
+                else if (score_counter.out == 55) {
+                  level.en = 1;
+                  level.data = 3;
+                }
+                else if (score_counter.out == 60) {
+                  level.en = 1;
+                  level.data = 1;
+                  asteroid_position.en = 1;
+                  asteroid_position.data = 7b1100000;
+                }
+                else if (score_counter.out == 65) {
+                  level.en = 1;
+                  level.data = 2;
+                }
+                else if (score_counter.out == 70) {
+                  level.en = 1;
+                  level.data = 3;
+                }
+                missile.en = 1;
+                missile.data = 7b0001000;
+                sema.en = 1;
+                sema.data = sema.out + 1;
+                second_row.en = 1;
+                third_row.en = 1;
+                fourth_row.en = 1;
+                fifth_row.en = 1;
+                sixth_row.en = 1;
+                seventh_row.en = 1;
+                eighth_row.en = 1;
+    
+                second_row.data = 7b0;
+                third_row.data = 7b0;
+                fourth_row.data = 7b0;
+                fifth_row.data = 7b0;
+                sixth_row.data = 7b0;
+                seventh_row.data = 7b0;
+                eighth_row.data = 7b0;
+                
+                sema_one.en = 1;
+                sema_one.data = sema_one.out + 1;
+                if (lives.out == 2b0)
+                  main_controller.d = main_controller.GAME_OVER;
+                else
+                  main_controller.d = main_controller.START;
+              }
+          }
+        }
+        counter_shoot.d = counter_shoot.q + 1;
+        
+      main_controller.GAME_OVER:
+        ninth =   7b0000000;
+        eighth =  7b1110111;
+        seventh = 7b1010101;
+        sixth =   7b1110111;
+        fifth =   7b1000100;
+        fourth =  7b1010101;
+        third =   7b1110111;
+        second =  7b0000000;
+        first =   7b0000000;
+        if (shoot)
+          main_controller.d = main_controller.IDLE;
+    } // end of main_controller definitions
+  }
+}

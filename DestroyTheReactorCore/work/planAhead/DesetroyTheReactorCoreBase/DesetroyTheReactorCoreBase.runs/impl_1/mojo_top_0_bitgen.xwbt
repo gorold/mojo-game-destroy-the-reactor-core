@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=C:\Users\aidenchia\Documents\mojo\FUCKTHIS\work\planAhead\DesetroyTheReactorCoreBase\DesetroyTheReactorCoreBase.runs\impl_1\mojo_top_0_routed.ncd
+OUTFILE=C:\Users\aidenchia\Documents\mojo\FUCKTHIS\work\planAhead\DesetroyTheReactorCoreBase\DesetroyTheReactorCoreBase.runs\impl_1\mojo_top_0.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\aidenchia\Documents\mojo\FUCKTHIS\work\planAhead\DesetroyTheReactorCoreBase\DesetroyTheReactorCoreBase.runs\impl_1
+LICENSE=WebPack
+USER_INFO=211596358_0_0_155

@@ -1,0 +1,17 @@
+module compare_unit (
+    input z, // obtained from adder unit
+    input v, // obtained from adder unit
+    input n, // obtained from adder unit
+    input alufn[6],
+    output out[16]
+  ) {
+
+  always {
+    case(alufn[2:1]) {
+      2b01: out = z; // is A = B?
+      2b10: out = n ^ v; // is A < B?
+      2b11: out = z | (n ^ v); // is A <= B?
+      default: out = 0;
+    }
+  }    
+}
