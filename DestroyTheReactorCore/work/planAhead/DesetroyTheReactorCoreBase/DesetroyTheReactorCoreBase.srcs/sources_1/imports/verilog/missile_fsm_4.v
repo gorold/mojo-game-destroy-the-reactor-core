@@ -506,6 +506,8 @@ module missile_fsm_4 (
                     if (M_score_counter_out == 4'hf) begin
                       M_goal_en = 1'h1;
                       M_goal_data = 7'h14;
+                      M_level_en = 1'h1;
+                      M_level_data = 1'h1;
                     end else begin
                       if (M_score_counter_out == 5'h14) begin
                         M_level_en = 1'h1;
@@ -597,7 +599,11 @@ module missile_fsm_4 (
                 if (M_lives_out == 2'h0) begin
                   M_main_controller_d = GAME_OVER_main_controller;
                 end else begin
-                  M_main_controller_d = START_main_controller;
+                  if (M_score_counter_out == 7'h63) begin
+                    M_main_controller_d = GAME_OVER_main_controller;
+                  end else begin
+                    M_main_controller_d = START_main_controller;
+                  end
                 end
               end
             end

@@ -64,5 +64,12 @@ module seven_seg_score (
       digit_lut_lsb.in = score - 8b01010000; // score - 80
     }
     
+    else if (score < 100) {
+    
+      msb = 7b1100111;
+      digit_lut_lsb.in = score - 8b01011010; // score - 90
+      
+    }
+    
   }
 }

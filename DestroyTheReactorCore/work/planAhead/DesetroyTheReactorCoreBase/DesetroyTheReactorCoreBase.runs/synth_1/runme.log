@@ -7,45 +7,45 @@ Reading design: mojo_top_0.prj
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/shifter_unit_28.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/shifter_unit_28.v" into library work
 Parsing module <shifter_unit_28>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/compare_unit_27.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/compare_unit_27.v" into library work
 Parsing module <compare_unit_27>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/boolean_unit_30.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/boolean_unit_30.v" into library work
 Parsing module <boolean_unit_30>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/adder_unit_29.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/adder_unit_29.v" into library work
 Parsing module <adder_unit_29>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_8.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_8.v" into library work
 Parsing module <register_8>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_21.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_21.v" into library work
 Parsing module <register_21>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_19.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_19.v" into library work
 Parsing module <register_19>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_17.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_17.v" into library work
 Parsing module <register_17>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/pipeline_7.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/pipeline_7.v" into library work
 Parsing module <pipeline_7>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/multiplexer_23.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/multiplexer_23.v" into library work
 Parsing module <multiplexer_23>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_lsb_26.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_lsb_26.v" into library work
 Parsing module <digit_lut_lsb_26>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_25.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_25.v" into library work
 Parsing module <digit_lut_25>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/alu16_unit_24.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/alu16_unit_24.v" into library work
 Parsing module <alu16_unit_24>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" into library work
 Parsing module <seven_seg_score_6>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_lives_5.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_lives_5.v" into library work
 Parsing module <seven_seg_lives_5>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/reset_conditioner_1.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/reset_conditioner_1.v" into library work
 Parsing module <reset_conditioner_1>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" into library work
 Parsing module <missile_fsm_4>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/edge_detector_3.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/edge_detector_3.v" into library work
 Parsing module <edge_detector_3>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/button_conditioner_2.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/button_conditioner_2.v" into library work
 Parsing module <button_conditioner_2>.
-Analyzing Verilog file "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/mojo_top_0.v" into library work
+Analyzing Verilog file "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/mojo_top_0.v" into library work
 Parsing module <mojo_top_0>.
 
 =========================================================================
@@ -83,15 +83,15 @@ Elaborating module <shifter_unit_28>.
 Elaborating module <adder_unit_29>.
 
 Elaborating module <boolean_unit_30>.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 271: Result of 8-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 276: Result of 9-bit expression is truncated to fit in 2-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 333: Result of 16-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 340: Result of 16-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 346: Result of 16-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 389: Result of 16-bit expression is truncated to fit in 7-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 396: Result of 16-bit expression is truncated to fit in 7-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 406: Result of 16-bit expression is truncated to fit in 7-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 413: Result of 16-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 271: Result of 8-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 276: Result of 9-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 333: Result of 16-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 340: Result of 16-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 346: Result of 16-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 389: Result of 16-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 396: Result of 16-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 406: Result of 16-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 413: Result of 16-bit expression is truncated to fit in 7-bit target.
 
 Elaborating module <seven_seg_lives_5>.
 
@@ -100,35 +100,36 @@ Elaborating module <digit_lut_25>.
 Elaborating module <seven_seg_score_6>.
 
 Elaborating module <digit_lut_lsb_26>.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 28: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 32: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 36: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 40: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 44: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 48: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 52: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 56: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 60: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 28: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 32: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 36: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 40: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 44: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 48: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 52: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 56: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 60: Result of 8-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 64: Result of 8-bit expression is truncated to fit in 4-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <mojo_top_0>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/mojo_top_0.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/mojo_top_0.v".
     Summary:
 	no macro.
 Unit <mojo_top_0> synthesized.
 
 Synthesizing Unit <reset_conditioner_1>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/reset_conditioner_1.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/reset_conditioner_1.v".
     Found 4-bit register for signal <M_stage_q>.
     Summary:
 	inferred   4 D-type flip-flop(s).
 Unit <reset_conditioner_1> synthesized.
 
 Synthesizing Unit <button_conditioner_2>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/button_conditioner_2.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/button_conditioner_2.v".
     Found 20-bit register for signal <M_ctr_q>.
     Found 20-bit adder for signal <M_ctr_q[19]_GND_3_o_add_2_OUT> created at line 39.
     Summary:
@@ -137,21 +138,21 @@ Synthesizing Unit <button_conditioner_2>.
 Unit <button_conditioner_2> synthesized.
 
 Synthesizing Unit <pipeline_7>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/pipeline_7.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/pipeline_7.v".
     Found 2-bit register for signal <M_pipe_q>.
     Summary:
 	inferred   2 D-type flip-flop(s).
 Unit <pipeline_7> synthesized.
 
 Synthesizing Unit <edge_detector_3>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/edge_detector_3.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/edge_detector_3.v".
     Found 1-bit register for signal <M_last_q>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <edge_detector_3> synthesized.
 
 Synthesizing Unit <missile_fsm_4>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v".
     Found 23-bit register for signal <M_counter_two_q>.
     Found 22-bit register for signal <M_counter_three_q>.
     Found 21-bit register for signal <M_counter_four_q>.
@@ -164,8 +165,8 @@ Synthesizing Unit <missile_fsm_4>.
     Found finite state machine <FSM_0> for signal <M_main_controller_q>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
-    | Transitions        | 14                                             |
-    | Inputs             | 8                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 9                                              |
     | Outputs            | 2                                              |
     | Clock              | clk (rising_edge)                              |
     | Reset              | rst (positive)                                 |
@@ -195,9 +196,9 @@ Synthesizing Unit <missile_fsm_4>.
     Found 21-bit adder for signal <M_counter_four_q[20]_GND_6_o_add_43_OUT> created at line 422.
     Found 1-bit adder for signal <M_sema_one_out[0]_PWR_6_o_add_53_OUT<0>> created at line 439.
     Found 1-bit adder for signal <M_sema_out[0]_PWR_6_o_add_55_OUT<0>> created at line 494.
-    Found 21-bit adder for signal <M_counter_shoot_q[20]_GND_6_o_add_162_OUT> created at line 606.
-    Found 128x9-bit Read Only RAM for signal <_n0633>
-    Found 64x7-bit Read Only RAM for signal <_n0640>
+    Found 21-bit adder for signal <M_counter_shoot_q[20]_GND_6_o_add_164_OUT> created at line 612.
+    Found 128x9-bit Read Only RAM for signal <_n0636>
+    Found 64x7-bit Read Only RAM for signal <_n0643>
     Found 7-bit 4-to-1 multiplexer for signal <fourth> created at line 302.
     Found 1-bit 4-to-1 multiplexer for signal <M_sema_en> created at line 302.
     Found 1-bit 4-to-1 multiplexer for signal <M_asteroid_position_en> created at line 302.
@@ -207,54 +208,54 @@ Synthesizing Unit <missile_fsm_4>.
 	inferred   2 RAM(s).
 	inferred   7 Adder/Subtractor(s).
 	inferred 113 D-type flip-flop(s).
-	inferred 104 Multiplexer(s).
+	inferred 103 Multiplexer(s).
 	inferred   2 Finite State Machine(s).
 Unit <missile_fsm_4> synthesized.
 
 Synthesizing Unit <register_8>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_8.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_8.v".
     Found 7-bit register for signal <M_regs_q>.
     Summary:
 	inferred   7 D-type flip-flop(s).
 Unit <register_8> synthesized.
 
 Synthesizing Unit <register_17>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_17.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_17.v".
     Found 1-bit register for signal <M_regs_q>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <register_17> synthesized.
 
 Synthesizing Unit <register_19>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_19.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_19.v".
     Found 8-bit register for signal <M_regs_q>.
     Summary:
 	inferred   8 D-type flip-flop(s).
 Unit <register_19> synthesized.
 
 Synthesizing Unit <register_21>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_21.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/register_21.v".
     Found 9-bit register for signal <M_regs_q>.
     Summary:
 	inferred   9 D-type flip-flop(s).
 Unit <register_21> synthesized.
 
 Synthesizing Unit <multiplexer_23>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/multiplexer_23.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/multiplexer_23.v".
     Found 25-bit 4-to-1 multiplexer for signal <counter> created at line 20.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <multiplexer_23> synthesized.
 
 Synthesizing Unit <alu16_unit_24>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/alu16_unit_24.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/alu16_unit_24.v".
     Found 16-bit 4-to-1 multiplexer for signal <out> created at line 83.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <alu16_unit_24> synthesized.
 
 Synthesizing Unit <compare_unit_27>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/compare_unit_27.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/compare_unit_27.v".
 WARNING:Xst:647 - Input <alufn<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <alufn<5:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16-bit 4-to-1 multiplexer for signal <out> created at line 19.
@@ -263,7 +264,7 @@ WARNING:Xst:647 - Input <alufn<5:3>> is never used. This port will be preserved 
 Unit <compare_unit_27> synthesized.
 
 Synthesizing Unit <shifter_unit_28>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/shifter_unit_28.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/shifter_unit_28.v".
 WARNING:Xst:647 - Input <b<15:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <alufn<5:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16-bit shifter logical left for signal <a[15]_b[3]_shift_left_0_OUT> created at line 20
@@ -276,7 +277,7 @@ WARNING:Xst:647 - Input <alufn<5:2>> is never used. This port will be preserved 
 Unit <shifter_unit_28> synthesized.
 
 Synthesizing Unit <adder_unit_29>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/adder_unit_29.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/adder_unit_29.v".
 WARNING:Xst:647 - Input <alufn<5:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16-bit subtractor for signal <a[15]_b[15]_sub_2_OUT> created at line 26.
     Found 16-bit adder for signal <a[15]_b[15]_add_2_OUT> created at line 29.
@@ -286,7 +287,7 @@ WARNING:Xst:647 - Input <alufn<5:1>> is never used. This port will be preserved 
 Unit <adder_unit_29> synthesized.
 
 Synthesizing Unit <boolean_unit_30>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/boolean_unit_30.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/boolean_unit_30.v".
 WARNING:Xst:647 - Input <alufn<5:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16-bit 16-to-1 multiplexer for signal <out> created at line 18.
     Summary:
@@ -294,21 +295,21 @@ WARNING:Xst:647 - Input <alufn<5:4>> is never used. This port will be preserved 
 Unit <boolean_unit_30> synthesized.
 
 Synthesizing Unit <seven_seg_lives_5>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_lives_5.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_lives_5.v".
     Summary:
 	no macro.
 Unit <seven_seg_lives_5> synthesized.
 
 Synthesizing Unit <digit_lut_25>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_25.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_25.v".
     Found 8x7-bit Read Only RAM for signal <out>
     Summary:
 	inferred   1 RAM(s).
 Unit <digit_lut_25> synthesized.
 
 Synthesizing Unit <seven_seg_score_6>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v".
-    Found 4-bit subtractor for signal <score[7]_GND_19_o_sub_3_OUT<3:0>> created at line 32.
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v".
+    Found 4-bit subtractor for signal <score[7]_GND_19_o_sub_19_OUT<3:0>> created at line 64.
     Found 4-bit subtractor for signal <score[7]_GND_19_o_sub_5_OUT<3:0>> created at line 36.
     Found 4-bit subtractor for signal <score[7]_GND_19_o_sub_7_OUT<3:0>> created at line 40.
     Found 4-bit subtractor for signal <score[7]_GND_19_o_sub_9_OUT<3:0>> created at line 44.
@@ -324,14 +325,15 @@ Synthesizing Unit <seven_seg_score_6>.
     Found 8-bit comparator greater for signal <score[7]_GND_19_o_LessThan_12_o> created at line 50
     Found 8-bit comparator greater for signal <score[7]_GND_19_o_LessThan_14_o> created at line 54
     Found 8-bit comparator greater for signal <score[7]_GND_19_o_LessThan_16_o> created at line 58
+    Found 8-bit comparator greater for signal <score[7]_GND_19_o_LessThan_18_o> created at line 62
     Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred   9 Comparator(s).
-	inferred  24 Multiplexer(s).
+	inferred   7 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+	inferred  19 Multiplexer(s).
 Unit <seven_seg_score_6> synthesized.
 
 Synthesizing Unit <digit_lut_lsb_26>.
-    Related source file is "C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_lsb_26.v".
+    Related source file is "C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/digit_lut_lsb_26.v".
     Found 16x7-bit Read Only RAM for signal <out>
     Summary:
 	inferred   1 RAM(s).
@@ -346,7 +348,7 @@ Macro Statistics
  16x7-bit single-port Read Only RAM                    : 1
  64x7-bit single-port Read Only RAM                    : 1
  8x7-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 10
+# Adders/Subtractors                                   : 16
  1-bit adder                                           : 2
  16-bit addsub                                         : 1
  20-bit adder                                          : 1
@@ -354,7 +356,7 @@ Macro Statistics
  22-bit adder                                          : 1
  23-bit adder                                          : 1
  24-bit adder                                          : 1
- 4-bit subtractor                                      : 1
+ 4-bit subtractor                                      : 7
 # Registers                                            : 26
  1-bit register                                        : 5
  2-bit register                                        : 1
@@ -367,18 +369,18 @@ Macro Statistics
  7-bit register                                        : 10
  8-bit register                                        : 2
  9-bit register                                        : 1
-# Comparators                                          : 9
- 8-bit comparator greater                              : 9
-# Multiplexers                                         : 134
- 1-bit 2-to-1 multiplexer                              : 62
+# Comparators                                          : 10
+ 8-bit comparator greater                              : 10
+# Multiplexers                                         : 128
+ 1-bit 2-to-1 multiplexer                              : 61
  1-bit 4-to-1 multiplexer                              : 3
  16-bit 16-to-1 multiplexer                            : 1
  16-bit 2-to-1 multiplexer                             : 4
  16-bit 4-to-1 multiplexer                             : 3
  25-bit 4-to-1 multiplexer                             : 1
- 4-bit 2-to-1 multiplexer                              : 16
+ 4-bit 2-to-1 multiplexer                              : 10
  6-bit 2-to-1 multiplexer                              : 3
- 7-bit 2-to-1 multiplexer                              : 31
+ 7-bit 2-to-1 multiplexer                              : 32
  7-bit 3-to-1 multiplexer                              : 1
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 7
@@ -392,7 +394,6 @@ Macro Statistics
  16-bit xor2                                           : 2
 
 =========================================================================
-INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 
 =========================================================================
 *                       Advanced HDL Synthesis                          *
@@ -439,7 +440,7 @@ The following registers are absorbed into counter <M_counter_shoot_q>: 1 registe
 The following registers are absorbed into counter <M_counter_one_q>: 1 register on signal <M_counter_one_q>.
 The following registers are absorbed into counter <sema/M_regs_q_0>: 1 register on signal <sema/M_regs_q_0>.
 The following registers are absorbed into counter <sema_one/M_regs_q_0>: 1 register on signal <sema_one/M_regs_q_0>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0633> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0636> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -450,7 +451,7 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0633> will be implemented on LUTs 
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0640> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0643> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -472,9 +473,9 @@ Macro Statistics
  16x7-bit single-port distributed Read Only RAM        : 1
  64x7-bit single-port distributed Read Only RAM        : 1
  8x7-bit single-port distributed Read Only RAM         : 1
-# Adders/Subtractors                                   : 2
+# Adders/Subtractors                                   : 8
  16-bit addsub                                         : 1
- 4-bit subtractor                                      : 1
+ 4-bit subtractor                                      : 7
 # Counters                                             : 8
  1-bit up counter                                      : 2
  20-bit up counter                                     : 1
@@ -484,18 +485,18 @@ Macro Statistics
  24-bit up counter                                     : 1
 # Registers                                            : 104
  Flip-Flops                                            : 104
-# Comparators                                          : 9
- 8-bit comparator greater                              : 9
-# Multiplexers                                         : 132
- 1-bit 2-to-1 multiplexer                              : 60
+# Comparators                                          : 10
+ 8-bit comparator greater                              : 10
+# Multiplexers                                         : 126
+ 1-bit 2-to-1 multiplexer                              : 59
  1-bit 4-to-1 multiplexer                              : 3
  16-bit 16-to-1 multiplexer                            : 1
  16-bit 2-to-1 multiplexer                             : 4
  16-bit 4-to-1 multiplexer                             : 3
  25-bit 4-to-1 multiplexer                             : 1
- 4-bit 2-to-1 multiplexer                              : 16
+ 4-bit 2-to-1 multiplexer                              : 10
  6-bit 2-to-1 multiplexer                              : 3
- 7-bit 2-to-1 multiplexer                              : 31
+ 7-bit 2-to-1 multiplexer                              : 32
  7-bit 3-to-1 multiplexer                              : 1
  7-bit 4-to-1 multiplexer                              : 1
  8-bit 2-to-1 multiplexer                              : 7
@@ -529,14 +530,14 @@ Optimizing FSM <missile_fsm/FSM_1> on signal <M_missile_shoots_q[1:4]> with user
  1000  | 1000
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <missile_fsm/FSM_0> on signal <M_main_controller_q[1:2]> with gray encoding.
+Optimizing FSM <missile_fsm/FSM_0> on signal <M_main_controller_q[1:2]> with user encoding.
 -------------------
  State | Encoding
 -------------------
  00    | 00
  01    | 01
- 10    | 11
- 11    | 10
+ 10    | 10
+ 11    | 11
 -------------------
 WARNING:Xst:1293 - FF/Latch <goal/M_regs_q_6> has a constant value of 0 in block <missile_fsm_4>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <goal/M_regs_q_5> has a constant value of 0 in block <missile_fsm_4>. This FF/Latch will be trimmed during the optimization process.
@@ -641,7 +642,7 @@ Speed Grade: -2
 
    Minimum period: 8.389ns (Maximum Frequency: 119.200MHz)
    Minimum input arrival time before clock: 3.526ns
-   Maximum output required time after clock: 13.960ns
+   Maximum output required time after clock: 9.342ns
    Maximum combinational path delay: No path found
 
 =========================================================================

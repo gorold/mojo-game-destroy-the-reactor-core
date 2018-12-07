@@ -19,7 +19,6 @@ module missile_fsm (
   {
     .rst(rst)
     {
-//      dff slowclk;
       register missile (#WIDTH(7)); // 7 bit register for missle
       register goal (#WIDTH(7)); // 7 bit register for reactor core
       
@@ -61,8 +60,6 @@ module missile_fsm (
   alu16_unit alu16;
   
   always {
-//    slowclk.d = ~slowclk.q;
-//    sclk = slowclk.q;
     missile.en = 0;
     missile.data = 7bx;
     
@@ -440,6 +437,8 @@ module missile_fsm (
                 sema_one.en = 1;
                 sema_one.data = sema_one.out + 1;
                 if (lives.out == 2b0)
+                  main_controller.d = main_controller.GAME_OVER;
+                else if (score_counter.out == 99)
                   main_controller.d = main_controller.GAME_OVER;
                 else
                   main_controller.d = main_controller.START;

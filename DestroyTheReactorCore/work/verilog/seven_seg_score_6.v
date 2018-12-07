@@ -58,6 +58,11 @@ module seven_seg_score_6 (
                     if (score < 7'h5a) begin
                       msb = 7'h7f;
                       M_digit_lut_lsb_in = score - 8'h50;
+                    end else begin
+                      if (score < 7'h64) begin
+                        msb = 7'h67;
+                        M_digit_lut_lsb_in = score - 8'h5a;
+                      end
                     end
                   end
                 end

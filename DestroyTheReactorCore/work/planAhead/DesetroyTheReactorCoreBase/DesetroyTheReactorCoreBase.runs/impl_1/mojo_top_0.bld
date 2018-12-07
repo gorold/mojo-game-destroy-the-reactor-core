@@ -8,8 +8,9 @@ Executing edif2ngd -quiet "mojo_top_0.edf" "_ngo\mojo_top_0.ngo"
 Release 14.7 - edif2ngd P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Reading NGO file
-"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCor
-eBase/DesetroyTheReactorCoreBase.runs/impl_1/_ngo/mojo_top_0.ngo" ...
+"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheRe
+actorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.r
+uns/impl_1/_ngo/mojo_top_0.ngo" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -31,10 +32,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 157636 kilobytes
+Total memory usage is 157828 kilobytes
 
 Writing NGD file "mojo_top_0.ngd" ...
-Total REAL time to NGDBUILD completion:  5 sec
-Total CPU time to NGDBUILD completion:   2 sec
+Total REAL time to NGDBUILD completion:  12 sec
+Total CPU time to NGDBUILD completion:   5 sec
 
 Writing NGDBUILD log file "mojo_top_0.bld"...

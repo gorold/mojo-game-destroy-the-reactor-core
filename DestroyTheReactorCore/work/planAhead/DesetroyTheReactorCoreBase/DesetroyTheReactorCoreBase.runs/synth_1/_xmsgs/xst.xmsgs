@@ -5,58 +5,61 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 271: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 271: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 276: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 276: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 333: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 333: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 340: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 340: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 346: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 346: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 389: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 389: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 396: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 396: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 406: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 406: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 413: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/missile_fsm_4.v" Line 413: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 28: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 28: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 32: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 32: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 36: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 36: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 40: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 40: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 44: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 44: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 48: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 48: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 52: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 52: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 56: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 56: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/aidenchia/Documents/mojo/FUCKTHIS/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 60: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 60: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/wooge/OneDrive/Desktop/Mojo-Game-Destroy-the-Reactor-Core/DestroyTheReactorCore/work/planAhead/DesetroyTheReactorCoreBase/DesetroyTheReactorCoreBase.srcs/sources_1/imports/verilog/seven_seg_score_6.v" Line 64: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">alufn&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -77,19 +80,16 @@
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">alufn&lt;5:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
-</msg>
-
 <msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_out</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 <msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_out</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
-<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0633</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0636</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
-<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0640</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0643</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 <msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">goal/M_regs_q_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">missile_fsm_4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
